@@ -17,21 +17,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car[] cars = {
-                Car.makeCar("Хонда Инспайр", 6000, Type.SEDAN),
-                Car.makeCar("Хонда СРВ", 9000, Type.ALL_ROAD),
-                Car.makeCar("Хонда Трак-вагон", 12000, Type.TRUCK)
-        };
-        String allCars = GSON.toJson(cars);
-        write(allCars);
-        System.out.println(allCars);
-        System.out.println(readFile());
+//        Car[] cars = {
+//                Car.makeCar("Хонда Инспайр", 6000, Type.SEDAN),
+//                Car.makeCar("Хонда СРВ", 9000, Type.ALL_ROAD),
+//                Car.makeCar("Хонда Трак-вагон", 12000, Type.TRUCK)
+//        };
+//        String allCars = GSON.toJson(cars);
+//        write(allCars);
+//        System.out.println(allCars);
+//        System.out.println(readFile());
+//
+//        Car[] cars1 = GSON.fromJson(readFile(),Car[].class);
+//        for (Car c:cars1
+//             ) {
+//            System.out.println(c.toString());
+//        }
 
-        Car[] cars1 = GSON.fromJson(readFile(),Car[].class);
-        for (Car c:cars1
-             ) {
-            System.out.println(c.toString());
-        }
+        System.out.println(" Hello from new  branch !!!!");
     }
 
     private static void write(String obj) {
